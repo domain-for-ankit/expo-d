@@ -24,6 +24,9 @@
   color: white;
 }
 
+header .active{
+  color: burlywood !important;
+}
 .App-link {
   color: #61dafb;
 }
