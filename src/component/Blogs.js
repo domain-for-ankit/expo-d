@@ -1,12 +1,18 @@
-import react from 'react'
-import Header from './Header'
+import react from "react";
+import Blogcard from "./Blogcard";
 
-function Blogs(){
-    return(
-        <>
-            <h1>THis is Blogs Page</h1>
-        </>
-    )
+function Blogs() {
+  return (
+    <>
+      <div className="container">
+        <div className="row">
+          <div className="col-12 col-sm-6 col-md-4 col-lg-3">
+            <Blogcard />
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default Blogs
+export default Blogs;
